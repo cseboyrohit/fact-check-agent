@@ -156,8 +156,8 @@ st.markdown("""
 
 
 # ─── API Key Check ────────────────────────────────────────────────────────────
-gemini_key = os.getenv("GEMINI_API_KEY", "")
-serper_key = os.getenv("SERPER_API_KEY", "")
+gemini_key = os.getenv("GEMINI_API_KEY", "AIzaSyDA9wklejVHdZ4q6NCDnZ8z60RHkBg8LoY")
+serper_key = os.getenv("SERPER_API_KEY", "aee12f91840969cf2f42f3b40560f1cf36b2aabc")
 
 if not gemini_key or not serper_key:
     st.error(
